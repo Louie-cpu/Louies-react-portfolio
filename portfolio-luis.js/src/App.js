@@ -1,12 +1,12 @@
 import React from "react"
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar"
 
 const App = () => {
-  return(
-   <>
-   <Navbar />
-   </>
+  return (
+    <>
+      <Navbar />
+    </>
   )
 }
 
-export default App;
+export default App
