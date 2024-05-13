@@ -15,8 +15,8 @@ const Home = () => {
         </h2>
         <p className="text-gray-300 py-4 max-w-700px">
           I am a full stack developer dedicated to building and designing
-          excellent digital experiences. Currently building out a capstone
-          project from scratch with my LEARN Academy Class
+          excellent digital experiences. Currently building a Practicum project
+          from scratch with my LEARN Academy Class
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600 hover:border-red-600">
