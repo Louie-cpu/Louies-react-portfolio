@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-black  text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center align-right px-4 bg-black  text-gray-300">
       <div>
         <img
           src={lM}
@@ -21,33 +21,40 @@ const Navbar = () => {
       </div>
 
       {/* menu  */}
-      <ul className="hidden md:flex">
-        <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link to="work" smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+      <div className="flex justify-end w-full">
+        <ul className="hidden md:flex">
+          <li>
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-red-700 px-4 py-2 rounded-lg"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="work" smooth={true} duration={500}>
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
 
       {/*Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
