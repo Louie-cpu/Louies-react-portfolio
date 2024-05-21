@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center align-right px-4 bg-black  text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center align-right px-4 bg-red-700  text-gray-300">
       <div>
         <img
           src={lM}
@@ -28,28 +28,48 @@ const Navbar = () => {
               to="home"
               smooth={true}
               duration={500}
-              className="hover:text-white hover:text-red-700 px-4 py-2 rounded-lg"
+              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
             >
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500}>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+            >
               Skills
             </Link>
           </li>
           <li>
-            <Link to="work" smooth={true} duration={500}>
+            <Link
+              to="work"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+            >
               Work
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+            >
               Contact
             </Link>
           </li>
