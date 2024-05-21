@@ -1,6 +1,6 @@
 import React from "react"
 import css from "../assets/css.png"
-import node from "../assets/node.png"
+import postgresql from "../assets/postgresql.png"
 import html from "../assets/html.png"
 import js from "../assets/javascript.png"
 import rails from "../assets/rails.png"
@@ -26,10 +26,6 @@ const Skills = () => {
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={node} alt="node icon" />
-            <p className="my-4">NODE JS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={html} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
@@ -44,6 +40,14 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={reactImg} alt="React icon" />
             <p className="my-4">REACT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto"
+              src={postgresql}
+              alt="postgres icon"
+            />
+            <p className="my-4">PostgreSQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
