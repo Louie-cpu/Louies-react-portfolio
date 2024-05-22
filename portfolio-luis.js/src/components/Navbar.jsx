@@ -91,13 +91,25 @@ const Navbar = () => {
           }
         >
           <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            <Link
+              onClick={handleClick}
+              to="home"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-red-600 px-4 py-2 rounded-lg"
+            >
               Home
             </Link>
           </li>
           <li className="py-6 text-4xl">
             {" "}
-            <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            <Link
+              onClick={handleClick}
+              to="about"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-red-600 px-4 py-2 rounded-lg"
+            >
               About
             </Link>
           </li>
@@ -108,12 +120,19 @@ const Navbar = () => {
               to="skills"
               smooth={true}
               duration={500}
+              className="hover:text-white hover:text-red-600 px-4 py-2 rounded-lg"
             >
               Skills
             </Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            <Link
+              onClick={handleClick}
+              to="work"
+              smooth={true}
+              duration={500}
+              className="hover:text-white hover:text-red-600 px-4 py-2 rounded-lg"
+            >
               Work
             </Link>
           </li>
@@ -123,6 +142,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
+              className="hover:text-white hover:text-red-600 px-4 py-2 rounded-lg"
             >
               Contact
             </Link>
