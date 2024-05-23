@@ -28,7 +28,7 @@ const Navbar = () => {
               to="home"
               smooth={true}
               duration={500}
-              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+              className="hover:text-black hover:text-black px-4 py-2 rounded-lg"
             >
               Home
             </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
               to="about"
               smooth={true}
               duration={500}
-              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+              className="hover:text-black hover:text-black px-4 py-2 rounded-lg"
             >
               About
             </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
               to="skills"
               smooth={true}
               duration={500}
-              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+              className="hover:text-black hover:text-black px-4 py-2 rounded-lg"
             >
               Skills
             </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
               to="work"
               smooth={true}
               duration={500}
-              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+              className="hover:text-black hover:text-black px-4 py-2 rounded-lg"
             >
               Work
             </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="hover:text-white hover:text-black px-4 py-2 rounded-lg"
+              className="hover:text-black hover:text-black px-4 py-2 rounded-lg"
             >
               Contact
             </Link>
