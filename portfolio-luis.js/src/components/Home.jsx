@@ -4,7 +4,7 @@ import pf from "../assets/profile_photo.png"
 
 const Home = () => {
   return (
-    <div name="home " className="w-full h-screen py-3 bg-black">
+    <div name="home" className="w-full h-screen py-3 bg-black">
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-red-700 mt-8">Hi, my name is</p>
@@ -16,8 +16,8 @@ const Home = () => {
         </h2>
         <p className="text-gray-300 py-4 max-w-700px">
           I am a full stack developer dedicated to building and designing
-          excellent digital experiences. Currently building a Practicum project
-          from scratch with my LEARN Academy Class
+          excellent digital experiences. I look forward to meeting you, feel
+          free to check out my work and connect with me.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-700 hover:border-red-700">
