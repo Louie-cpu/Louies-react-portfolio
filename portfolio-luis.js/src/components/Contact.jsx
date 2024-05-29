@@ -32,6 +32,7 @@ const Contact = () => {
           name="email"
         />
         <textarea
+          className="my-4 p-2 bg-white"
           name="message"
           cols="30"
           rows="10"
