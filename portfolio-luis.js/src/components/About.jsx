@@ -17,9 +17,9 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hi, I'm Luis, I am constantly building and adding skills to my
-              arsenal. I am currently learning python 3 and am really enjoying
-              it.
+              Hi, I'm Luis, a Full Stack Developer constantly looking to build
+              and add to my skills. I am currently learning python 3 and am
+              really enjoying it.
             </p>
           </div>
           <div>
@@ -30,9 +30,9 @@ const About = () => {
               projects with my team mates and have worked on everything from
               front end to back end development as well as testing libraries to
               ensure quality products. I love learning new things and bettering
-              myself in all areas of web development. My main goal is to
-              continue to gain experience and build projects so that i can one
-              day be a senior developer at SpaceX.
+              myself in all areas of web development. My goal is to continue to
+              gain experience and build projects so that i can one day be a
+              senior developer at SpaceX.
             </p>
           </div>
         </div>
