@@ -58,7 +58,7 @@ const Work = () => {
                 Bank Buddy App
               </span>
               <p className="pt-2">
-                A finance management app. Built with React and Node.js.
+                A finance management app. Built with React and Rails.
               </p>
               <div className="pt-8">
                 <a
