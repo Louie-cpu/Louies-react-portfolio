@@ -23,12 +23,23 @@ const Work = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-black tracking-wider">
-                React JS Apartment App
+                Flat Finder Apartment App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/learn-academy-2024-alpha/apartment-app-frontend-matt-amir-and-louie-apt-app">
+                <a
+                  href="https://github.com/learn-academy-2024-alpha/apartment-app-frontend-matt-amir-and-louie-apt-app"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    Frontend Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/learn-academy-2024-alpha/apartment-app-backend-matt-amir-and-louie-apt-app"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Backend Code
                   </button>
                 </a>
               </div>
@@ -41,17 +52,31 @@ const Work = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-black tracking-wider">
-                React JS Bank Buddy App
+                Bank Buddy App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://capstone-frontend-yx8y.onrender.com/">
+                <a
+                  href="https://capstone-frontend-yx8y.onrender.com/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Morgan-and-sons/capstone-frontend">
+                <a
+                  href="https://github.com/Morgan-and-sons/capstone-frontend"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    Frontend Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/Morgan-and-sons/capstone-backend"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Backend Code
                   </button>
                 </a>
               </div>
@@ -64,12 +89,23 @@ const Work = () => {
             {/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-black tracking-wider">
-                React JS Cat Tinder App
+                Cat Tinder App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://github.com/learn-academy-2024-alpha/cat-tinder-frontend-catdaddys-luis-mark">
+                <a
+                  href="https://github.com/learn-academy-2024-alpha/cat-tinder-frontend-catdaddys-luis-mark"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    Frontend Code
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/learn-academy-2024-alpha/cat-tinder-backend-catdaddys-luis-mark"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Backend Code
                   </button>
                 </a>
               </div>
