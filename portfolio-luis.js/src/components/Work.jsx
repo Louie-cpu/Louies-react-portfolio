@@ -21,17 +21,20 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-black tracking-wider">
-                Flat Finder Apartment App
+            <div className="opacity-0 group-hover:opacity-100 p-4 text-center">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Flat Finder App
               </span>
-              <div className="pt-8 text-center">
+              <p className="pt-2">
+                A web app to find apartments. Built with React and Rails.
+              </p>
+              <div className="pt-8">
                 <a
                   href="https://github.com/learn-academy-2024-alpha/apartment-app-frontend-matt-amir-and-louie-apt-app"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Frontend Code
+                    Frontend
                   </button>
                 </a>
                 <a
@@ -39,7 +42,7 @@ const Work = () => {
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Backend Code
+                    Backend
                   </button>
                 </a>
               </div>
@@ -50,11 +53,14 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-black tracking-wider">
+            <div className="opacity-0 group-hover:opacity-100 p-4 text-center">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 Bank Buddy App
               </span>
-              <div className="pt-8 text-center">
+              <p className="pt-2">
+                A finance management app. Built with React and Node.js.
+              </p>
+              <div className="pt-8">
                 <a
                   href="https://capstone-frontend-yx8y.onrender.com/"
                   target="_blank"
@@ -68,7 +74,7 @@ const Work = () => {
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Frontend Code
+                    Frontend
                   </button>
                 </a>
                 <a
@@ -76,7 +82,7 @@ const Work = () => {
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Backend Code
+                    Backend
                   </button>
                 </a>
               </div>
@@ -87,17 +93,20 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-black tracking-wider">
+            <div className="opacity-0 group-hover:opacity-100 p-4 text-center">
+              <span className="text-2xl font-bold text-white tracking-wider">
                 Cat Tinder App
               </span>
-              <div className="pt-8 text-center">
+              <p className="pt-2">
+                A fun app to find cats. Built with React and Rails.
+              </p>
+              <div className="pt-8">
                 <a
                   href="https://github.com/learn-academy-2024-alpha/cat-tinder-frontend-catdaddys-luis-mark"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Frontend Code
+                    Frontend
                   </button>
                 </a>
                 <a
@@ -105,7 +114,7 @@ const Work = () => {
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Backend Code
+                    Backend
                   </button>
                 </a>
               </div>
