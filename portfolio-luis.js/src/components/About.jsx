@@ -31,8 +31,7 @@ const About = () => {
               front end to back end development as well as testing libraries to
               ensure quality products. I love learning new things and bettering
               myself in all areas of web development. My goal is to continue to
-              gain experience and build projects so that i can one day be a
-              senior developer at SpaceX.
+              gain experience and build projects.
             </p>
           </div>
         </div>
