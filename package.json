@@ -18,17 +18,11 @@
     "tailwindcss": "^3.4.1",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "https://yourusername.github.io/repositoryname/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.18.0"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
