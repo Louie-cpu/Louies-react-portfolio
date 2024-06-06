@@ -158,6 +158,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300 "
               href="https://www.linkedin.com/in/luis-u14-moreno/"
               target="_blank"
+              rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -167,6 +168,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300 "
               href="https://github.com/Louie-cpu"
               target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -176,6 +178,7 @@ const Navbar = () => {
               class="flex justify-between items-center w-full text-gray-300"
               href="https://luis.u.m779@gmail.com"
               target="_blank"
+              rel="noreferrer"
             >
               Email <HiOutlineMail size="30" />
             </a>
@@ -185,6 +188,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300 "
               href={resume}
               target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

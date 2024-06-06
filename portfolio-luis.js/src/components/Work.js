@@ -32,6 +32,7 @@ const Work = () => {
                 <a
                   href="https://github.com/learn-academy-2024-alpha/apartment-app-frontend-matt-amir-and-louie-apt-app"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Frontend
@@ -40,6 +41,7 @@ const Work = () => {
                 <a
                   href="https://github.com/learn-academy-2024-alpha/apartment-app-backend-matt-amir-and-louie-apt-app"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Backend
@@ -64,6 +66,7 @@ const Work = () => {
                 <a
                   href="https://capstone-frontend-yx8y.onrender.com/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -72,6 +75,7 @@ const Work = () => {
                 <a
                   href="https://github.com/Morgan-and-sons/capstone-frontend"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Frontend
@@ -80,6 +84,7 @@ const Work = () => {
                 <a
                   href="https://github.com/Morgan-and-sons/capstone-backend"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Backend
@@ -104,6 +109,7 @@ const Work = () => {
                 <a
                   href="https://github.com/learn-academy-2024-alpha/cat-tinder-frontend-catdaddys-luis-mark"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Frontend
@@ -112,6 +118,7 @@ const Work = () => {
                 <a
                   href="https://github.com/learn-academy-2024-alpha/cat-tinder-backend-catdaddys-luis-mark"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Backend
