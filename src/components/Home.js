@@ -27,8 +27,12 @@ const Home = () => {
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
-          <img src={pf} alt="Louie img" class="mx-auto w-1/2 max-w-xs h-auto" />
         </div>
+        <img
+          src={pf}
+          alt="Louie img"
+          class="mx-auto mt-8 w-1/2 max-w-xs h-auto "
+        />
       </div>
     </div>
   )
