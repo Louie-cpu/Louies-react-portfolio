@@ -1,6 +1,6 @@
 import React from "react"
 
-const Contact = () => {
+const Contact = ({ onSubmit }) => {
   return (
     <div
       name="contact"
@@ -10,6 +10,8 @@ const Contact = () => {
         method="POST"
         action="https://getform.io/f/paoxwkob"
         className="flex flex-col max-w-[600px] w-full"
+        data-testid="contact-form"
+        onSubmit={onSubmit} // Add the onSubmit handler here
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-red-700 text-gray-300">
