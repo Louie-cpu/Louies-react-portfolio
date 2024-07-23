@@ -9,7 +9,6 @@ describe("Home Component", () => {
     expect(screen.getByText(/Hi, my name is/i)).toBeInTheDocument()
     expect(screen.getByText(/Luis Moreno/i)).toBeInTheDocument()
 
-    // Check the specific heading for the text "I am a Full Stack Developer"
     const heading = screen.getByRole("heading", {
       level: 2,
       name: /I am a Full Stack Developer/i,
@@ -29,7 +28,6 @@ describe("Home Component", () => {
     expect(button).toBeInTheDocument()
     expect(button).toHaveClass("text-white")
 
-    // Check for the icon inside the button
     const icon = button.querySelector(".ml-3")
     expect(icon).toBeInTheDocument()
   })
